@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+$theme: #0084ff;
+
+// 本项目使用淘宝官网样式初始化代码，地址 https://www.cnblogs.com/Gavinzhong/p/6995328.html
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img {
+  display: inline-block;
+  vertical-align:middle;
+  border: none;
+  box-sizing: border-box;
+}
+
+// 自主定义初始化样式
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+body {
+  font-size: 13px;
+}
+
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a {
+  color: #333;
+}
