@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 
-import Hello from '../components/Hello'
 import Login from '../views/login/Login'
 
 class RouteConfig extends React.Component {
@@ -9,7 +8,7 @@ class RouteConfig extends React.Component {
     return(
       <HashRouter>
         <Switch>
-          <Route exact path="/" component={Hello} />
+          <Route exact path="/" component={Login} />
           <Route exact path="/login" component={Login} />
         </Switch>
       </HashRouter>

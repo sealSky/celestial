@@ -1,13 +1,32 @@
 {
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "compilerOptions": {
-    "outDir": "./dist/",
+    //    "outDir": "./dist/", // 打包目录
     "sourceMap": true,
-    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
     "module": "commonjs",
     "target": "es5",
-    "jsx": "react"
-  },
-  "include": [
-    "./src/**/*"
-  ]
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "noEmitOnError": true, // 报错时不生成输出文件
+    //    "noImplicitAny": true, // 在表达式和声明上有隐含的 any类型时报错。
+    "jsx": "preserve",
+    "noFallthroughCasesInSwitch": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2015.promise"
+    ],
+    "pretty": true
+  }
 }

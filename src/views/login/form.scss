@@ -1,0 +1,43 @@
+.login-form {
+  padding: 0.53rem 0.427rem;
+  text-align: center;
+}
+
+.BindPhoneForm-login {
+  font-size: 0.427rem;
+}
+.SignFlow-account {
+  width: 100%;
+  margin-top: 0.427rem;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.Input-wrapper {
+  width: 100%;
+  height: 1.28rem;
+  padding: 0;
+  color: #8590a6;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 0;
+}
+.SignFlowInput {
+  float: left;
+  .Input {
+    width: 100%;
+    height: 100%;
+    padding-left: 0.3rem;
+  }
+}
+
+.SignFlow-smsBindPhoneInput {
+  width: calc(100% - 2.667rem);
+}
+
+.MobileCountriesSelect {
+  height: 1.25rem;
+  width: 2.4rem;
+  float: left;
+  border-bottom: 1px solid #ebebeb;
+}
