@@ -127,6 +127,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^12.6.8",
     "awesome-typescript-loader": "^5.2.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",

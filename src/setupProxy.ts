@@ -1,13 +1,17 @@
 const proxy = require('http-proxy-middleware');
 
+
 module.exports = function (app) {
   app.use(
     proxy(
-      "/",
+      "/admin",
       {
-        target: "http://localhost:52153",
+        target: "http://192.168.1.39:8000",
         changeOrigin: true,
-        secure: false
+        secure: false,
+        pathRewrite: {
+          "^/admin": "/"
+        },
       }
     )
   )
